@@ -5,6 +5,9 @@ const Detail = () => {
   return (
     <View>
       <Text>Detail</Text>
+      <Text>Detail</Text>
+      <Text>Detail</Text>
+
     </View>
   )
 }
