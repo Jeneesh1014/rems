@@ -24,6 +24,11 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import * as Sentry from '@sentry/react-native';
+
+Sentry.init({
+  dsn: 'https://9f1805ab342d05b807ca4286ae8462e6@o4506965365424128.ingest.us.sentry.io/4506965431812096',
+});
 
 type SectionProps = PropsWithChildren<{
   title: string;
